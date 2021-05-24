@@ -72,10 +72,13 @@ export default styled(Navbar).attrs({})`
       }
     }
     &__gb {
-      opacity: ${({ language }) => language === 'en' && '1'};
+      opacity: ${({ language }) => language === 'gb' && '1'};
     }
     &__de {
       opacity: ${({ language }) => language === 'de' && '1'};
+    }
+    &__es {
+      opacity: ${({ language }) => language === 'es' && '1'};
     }
     &__it {
       opacity: ${({ language }) => language === 'it' && '1'};
