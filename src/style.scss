@@ -15,14 +15,14 @@ body {
   overflow-x: hidden;
 }
 
-img {
+.filter {
   filter: grayscale(100%);
   transition: filter 3s;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   -webkit-transition: filter 3000ms;
 }
 
-img:hover {
+.filter:hover {
   filter: none;
   -webkit-filter: none;
 }

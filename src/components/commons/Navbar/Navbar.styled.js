@@ -50,6 +50,9 @@ export default styled(Navbar).attrs({})`
     justify-content: center;
     height: 100%;
     width: 20vw;
+    & > * {
+      min-width: 35px;
+    }
     max-width: 20vw;
     &__gb,
     &__it,

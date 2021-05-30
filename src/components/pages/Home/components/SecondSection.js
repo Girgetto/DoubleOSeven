@@ -12,7 +12,6 @@ const SecondSection = () => {
         width="956px"
         height="540px"
         playing
-        muted
         url="https://www.youtube.com/watch?v=r4Hcrsdgz1Q"
       />
       <div className={style.titles}>

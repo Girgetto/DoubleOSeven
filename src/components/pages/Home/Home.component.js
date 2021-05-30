@@ -2,6 +2,7 @@ import React, { Suspense } from 'react'
 
 import * as Comp from './components'
 import { SEO } from '../../layout'
+import { Gallery } from '../../commons'
 
 const Home = ({ className }) => {
   return (
@@ -14,6 +15,7 @@ const Home = ({ className }) => {
           <Comp.FirstRow />
           <Comp.SecondRow />
           <Comp.ThirdRow />
+          <Gallery />
           <Comp.LastSection />
         </div>
       </SEO>
