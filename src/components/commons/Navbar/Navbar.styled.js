@@ -62,7 +62,7 @@ export default styled(Navbar).attrs({})`
     &__ru,
     &__fr {
       border: 1px solid white;
-      width: 30px;
+      min-width: 30px;
       height: 30px;
       margin-left: 10px;
       display: flex;
