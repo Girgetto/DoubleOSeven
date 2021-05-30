@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "876f9b6a60b8510052be8fb847947da5",
+    "revision": "82c71dc2e76aa9f329acb6651b39d530",
     "url": "/index.html"
   },
   {
-    "revision": "355170c7fa5c773bf040",
+    "revision": "d582978991523216dae5",
     "url": "/static/css/2.497814f1.chunk.css"
   },
   {
-    "revision": "4346f11247caa7fc3dbc",
+    "revision": "d7f4cab91954dcd5844f",
     "url": "/static/css/main.2a57bbe9.chunk.css"
   },
   {
-    "revision": "355170c7fa5c773bf040",
-    "url": "/static/js/2.0686a6ca.chunk.js"
+    "revision": "d582978991523216dae5",
+    "url": "/static/js/2.e51461ac.chunk.js"
   },
   {
-    "revision": "4346f11247caa7fc3dbc",
-    "url": "/static/js/main.e6fd727f.chunk.js"
+    "revision": "d7f4cab91954dcd5844f",
+    "url": "/static/js/main.c8bd1ed4.chunk.js"
   },
   {
     "revision": "f523823b3f2ad62669d8",
@@ -182,10 +182,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d537909569a075f9f5056eb70baf48cf",
     "url": "/static/media/verde_toscano.d5379095.jpg"
-  },
-  {
-    "revision": "305f70b29544a2c31845d3f11bef20d7",
-    "url": "/static/media/view1.305f70b2.jpg"
   },
   {
     "revision": "ef4b5e1181cfdf4d1a63b56b930297e4",

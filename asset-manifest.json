@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.2a57bbe9.chunk.css",
-    "main.js": "/static/js/main.e6fd727f.chunk.js",
-    "main.js.map": "/static/js/main.e6fd727f.chunk.js.map",
+    "main.js": "/static/js/main.c8bd1ed4.chunk.js",
+    "main.js.map": "/static/js/main.c8bd1ed4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ca9ccbbf.js",
     "runtime-main.js.map": "/static/js/runtime-main.ca9ccbbf.js.map",
     "static/css/2.497814f1.chunk.css": "/static/css/2.497814f1.chunk.css",
-    "static/js/2.0686a6ca.chunk.js": "/static/js/2.0686a6ca.chunk.js",
-    "static/js/2.0686a6ca.chunk.js.map": "/static/js/2.0686a6ca.chunk.js.map",
+    "static/js/2.e51461ac.chunk.js": "/static/js/2.e51461ac.chunk.js",
+    "static/js/2.e51461ac.chunk.js.map": "/static/js/2.e51461ac.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.55fce726a7922bfedaa0b0bdb9cc785c.js": "/precache-manifest.55fce726a7922bfedaa0b0bdb9cc785c.js",
+    "precache-manifest.d531e3413c12730682a8c4c3acaa90f8.js": "/precache-manifest.d531e3413c12730682a8c4c3acaa90f8.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.497814f1.chunk.css.map": "/static/css/2.497814f1.chunk.css.map",
     "static/css/main.2a57bbe9.chunk.css.map": "/static/css/main.2a57bbe9.chunk.css.map",
@@ -53,7 +53,6 @@
     "static/media/strada_con_cipressi.jpg": "/static/media/strada_con_cipressi.42e5b3b1.jpg",
     "static/media/terra_cielo.jpg": "/static/media/terra_cielo.a8ac28a7.jpg",
     "static/media/verde_toscano.jpg": "/static/media/verde_toscano.d5379095.jpg",
-    "static/media/view1.jpg": "/static/media/view1.305f70b2.jpg",
     "static/media/view2.jpg": "/static/media/view2.ef4b5e11.jpg",
     "static/media/view3.jpg": "/static/media/view3.a6656231.jpg",
     "static/media/vigne_chianti.jpg": "/static/media/vigne_chianti.ed6637e3.jpg"
