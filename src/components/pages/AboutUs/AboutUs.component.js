@@ -5,9 +5,12 @@ import { Link } from 'react-router-dom'
 import { SEO } from '../../layout'
 import key from '../../../assets/img/key.png'
 import { ROUTES } from '../../../constants'
+import useOnScrollTop from '../../../hooks/useOnScrollTop'
 
 const AboutUs = ({ className }) => {
   const [t] = useTranslation()
+  useOnScrollTop()
+
   return (
     <div className={className}>
       <SEO title="Omida - Real Estate Consulting - Italy | About Us" />

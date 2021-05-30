@@ -3,11 +3,17 @@ import React, { Suspense } from 'react'
 import * as Comp from './components'
 import { SEO } from '../../layout'
 import { Gallery } from '../../commons'
+import useOnScrollTop from '../../../hooks/useOnScrollTop'
 
 const Home = ({ className }) => {
+  useOnScrollTop()
+
   return (
     <Suspense fallback={<div>Loading</div>}>
-      <SEO title="Omida - Real Estate Consulting - Italy | Home page" description="Remida - real estate">
+      <SEO
+        title="Omida - Real Estate Consulting - Italy | Home page"
+        description="Remida - real estate"
+      >
         <div className={className}>
           <Comp.Main />
           <Comp.SecondSection />

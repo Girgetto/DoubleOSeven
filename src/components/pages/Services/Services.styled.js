@@ -66,6 +66,15 @@ export default styled(Services).attrs({})`
         width: 389px;
         height: 150px;
         object-fit: cover;
+        filter: grayscale(100%);
+        transition: filter 3s;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        -webkit-transition: filter 3000ms;
+        display: block;
+        &:hover {
+          filter: none;
+          -webkit-filter: none;
+        }
       }
       p {
         max-width: 439px;

@@ -13,6 +13,7 @@ import service3 from '../../../assets/img/services3.jpg'
 import service4 from '../../../assets/img/services4.jpg'
 import service5 from '../../../assets/img/Experience1.jpg'
 import service6 from '../../../assets/img/Experience2.jpg'
+import useOnScrollTop from '../../../hooks/useOnScrollTop'
 
 import { SEO } from '../../layout'
 
@@ -27,6 +28,8 @@ const contracts = [
 
 const Services = ({ className }) => {
   const [t] = useTranslation()
+  useOnScrollTop()
+
   return (
     <div className={className}>
       <SEO title="Omida - Real Estate Consulting - Italy | Services" />
@@ -57,53 +60,35 @@ const Services = ({ className }) => {
         </div>
         <div className="flex">
           <h1>01</h1>
-          <img
-            alt="service-1"
-            src={service1}
-          ></img>
+          <img alt="service-1" src={service1}></img>
           <p>{t('services.TheTarget')}</p>
         </div>
         <div className="flex">
           <h1>02</h1>
-          <img
-            alt="service-2"
-            src={service2}
-          ></img>
+          <img alt="service-2" src={service2}></img>
           <p>{t('services.ADeep')}</p>
         </div>
         <div className="flex">
           <h1>03</h1>
-          <img
-            alt="service-3"
-            src={service3}
-          ></img>
+          <img alt="service-3" src={service3}></img>
           <p>{t('services.WeWill')}</p>
         </div>
         <div className="flex">
           <h1>04</h1>
-          <img
-            alt="service-4"
-            src={service4}
-          ></img>
+          <img alt="service-4" src={service4}></img>
           <p>{t('services.WeCoordinate')}</p>
         </div>
         <div className="flex">
           <h1>05</h1>
-          <img
-            alt="service-1"
-            src={service5}
-          ></img>
+          <img alt="service-1" src={service5}></img>
           <p>{t('services.Documentation')}</p>
         </div>
         <div className="flex">
           <h1>06</h1>
-          <img
-            alt="service-1"
-            src={service6}
-          ></img>
+          <img alt="service-1" src={service6}></img>
           <p>{t('services.WeManage')}</p>
         </div>
-        <h2 style={{ marginLeft: '10% '}}>{t('Our Contracts')}</h2>
+        <h2 style={{ marginLeft: '10% ' }}>{t('Our Contracts')}</h2>
         <ul className="links">
           {contracts.map(({ href, name }) => (
             <li>
