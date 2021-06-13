@@ -14,6 +14,9 @@ export default styled(Navbar).attrs({})`
   padding-right: 6%;
   position: fixed;
   background-color: #131313;
+  position: fixed;
+  top: 0;
+  transition: top 0.3s;
 
   .logo {
     width: 5%;

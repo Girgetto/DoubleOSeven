@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { ROUTES, CLASS_NAME } from '../../../constants'
 import { useTranslation } from 'react-i18next'
@@ -15,9 +15,21 @@ const Navbar = ({ className, setLanguage }) => {
     setLanguage(lng)
     i18n.changeLanguage(lng)
   }
+  const navbar = useRef(null)
+
+  var prevScrollpos = window.pageYOffset
+  window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset
+    if (prevScrollpos > currentScrollPos) {
+      navbar.current.style.top = '0'
+    } else {
+      navbar.current.style.top = '-120px'
+    }
+    prevScrollpos = currentScrollPos
+  }
 
   return (
-    <div className={className}>
+    <div className={className} ref={navbar}>
       <img
         width="280"
         height="231"
